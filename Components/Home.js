@@ -14,14 +14,14 @@ export default function Home({navigation}) {
         <Image 
           source={require('./logo.png')}
           resizeMode="stretch"
-          style={{width:300,height:300}}
+          style={{width:450,height:350}}
         />
       </View>
       <View style={styles.footer}>
-        <Text style={styles.title}>Make your dream comes true</Text>
+        <Text style={styles.title}>Improve your memory and concentration skills</Text>
         <Text style={styles.text}>Sign in with account</Text>
         <TouchableOpacity 
-        style={{backgroundColor: '#0c4271',borderRadius:25,alignItems:'center',padding:3,width:'35%'}}
+        style={{backgroundColor: '#0c4271',borderRadius:25,alignItems:'center',padding:10,margin:5}}
         onPress={() => navigation.navigate('Login')}>
         <Text style={{fontSize:15,color:'#fff'}}>Get Started</Text>
         </TouchableOpacity>

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { View, Text, KeyboardAvoidingView, TouchableOpacity ,StyleSheet,TextInput} from 'react-native';
 import { StatusBar } from 'expo-status-bar';
-
+//import { Icon } from 'react-native-elements'
 export default class Login extends React.Component {
 
    state={
@@ -21,21 +21,19 @@ export default class Login extends React.Component {
         handlepawwordagain = (text) => {
             this.setState({passwordagain: text})
         }   
-/*
+
     login =() => {
-        this._retrieveData()
         if(this.state.isDone==true){
-        this.props.navigation.navigate('Home');
+        this.props.navigation.navigate('Jokes');
     }
       }
-*/
     render(){
        
         return(
             <KeyboardAvoidingView behavior='padding' style={styles.container}>
                 <StatusBar style="auto"/>
                 <View style={styles.header}>
-                <Text style={styles.textheader}>Student Guide</Text>
+                <Text style={styles.textheader}>Miller puzzles Solver</Text>
                 </View>
                 <View style={styles.footer}>
                 <TextInput

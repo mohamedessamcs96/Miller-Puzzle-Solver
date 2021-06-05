@@ -28,7 +28,7 @@ export default class Signup extends React.Component {
             <KeyboardAvoidingView behavior='padding' style={styles.container}>
                 <StatusBar style="auto"/>
                 <View style={styles.header}>
-                <Text style={styles.textheader}>Student Guide</Text>
+                <Text style={styles.textheader}>Miller puzzles Solver</Text>
                 </View>
                 <View style={styles.footer}>
                 <TextInput
